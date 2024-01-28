@@ -1,7 +1,7 @@
 import React from 'react';
 import EmailForm from './ui-components/EmailForm.jsx';
 import OTPForm from './ui-components/OTPForm.jsx';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Router } from 'react-router-dom';
 
 
 function App() {
