@@ -7,10 +7,12 @@ import { Route, Routes } from 'react-router-dom';
 function App() {
   return (
    <>
+    <Router>
    <Routes>
     <Route path="/" element={<EmailForm/>}/>
     <Route path="/OTPForm" element={<OTPForm/>}/>
    </Routes>
+  </Router>
    </>
   );
 }
